@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RjGame | شبکه‌های اجتماعی</title>
+  <meta name="description" content="صفحه شبکه‌های اجتماعی RjGame - استریم، تلگرام، آپارات، تله‌لایو و اینستاگرام">
+  <meta name="theme-color" content="#05000d">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="glow glow-pink" aria-hidden="true"></div>
+  <div class="glow glow-blue" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="logo-ring">
+        <img id="logo" src="logo.png" alt="لوگوی RJ" width="220" height="220">
+      </div>
+      <h1 class="name" id="name">RjGame</h1>
+      <p class="tagline" id="tagline"></p>
+      <div class="live-badge" id="liveBadge" hidden>
+        <span class="dot"></span> الان لایو هستم
+      </div>
+    </header>
+
+    <nav class="links" id="links" aria-label="شبکه‌های اجتماعی"></nav>
+
+    <section class="schedule" id="schedule" hidden>
+      <h2>برنامه استریم</h2>
+      <ul id="scheduleList"></ul>
+    </section>
+
+    <button class="share" id="shareBtn" type="button">کپی لینک این صفحه</button>
+
+    <footer class="foot">
+      <span id="year"></span> © RjGame — همه حقوق محفوظ است
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
