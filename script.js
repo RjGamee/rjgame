@@ -12,16 +12,13 @@ const CONFIG = {
 
   links: [
     { title: "تلگرام",   sub: "@rjgamee",           url: "https://t.me/rjgamee",             icon: "telegram",  color: "pink" },
-    { title: "اینستاگرام", sub: "@skinbaamir",        url: "https://www.instagram.com/skinbaamir",   icon: "instagram", color: "blue" },
+    { title: "اینستاگرام اسپانسر", sub: "@skinbaamir",        url: "https://www.instagram.com/skinbaamir",   icon: "instagram", color: "blue" },
     { title: "آپارات",   sub: "aparat.com/rjgame",  url: "https://www.aparat.com/rjgame/live",    icon: "aparat",    color: "pink" },
     { title: "تله‌لایو",  sub: "telelivee.ir/rjgame", url: "https://telelivee.ir/rjgame/live",       icon: "live",      color: "blue" }
   ],
 
   // برنامه استریم (اگه نمی‌خوای نمایش داده بشه آرایه رو خالی بذار: [])
   schedule: [
-    { day: "شنبه",       time: "21:00" },
-    { day: "دوشنبه",     time: "21:00" },
-    { day: "پنجشنبه",    time: "22:00" }
   ]
 };
 
